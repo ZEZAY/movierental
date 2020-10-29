@@ -1,18 +1,13 @@
 # Demonstrate the movie rental code.
 # Create a customer with some movies and print a statement.
-
-from movie import Movie
+from movie_catalog import MovieCatalog
 from rental import Rental
 from customer import Customer
 
+
 def make_movies():
-    movies = [
-        Movie("The Irishman", Movie.NEW_RELEASE),
-        Movie("CitizenFour", Movie.REGULAR),
-        Movie("Frozen", Movie.CHILDRENS),
-        Movie("El Camino", Movie.NEW_RELEASE),
-        Movie("Particle Fever", Movie.REGULAR)
-    ]
+    mc = MovieCatalog()
+    movies = mc.movies
     return movies
 
 
