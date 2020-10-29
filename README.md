@@ -1,3 +1,7 @@
+work repo: contain part 1, 2 (I did it in the wrong repo)
+
+https://github.com/ISP2020/movierental-ZEZAY/tree/python
+
 ## Movie Rental Refactoring Example
 
 This [refactoring example][refactoring_pdf] is from Chapter 1 of
